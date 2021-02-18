@@ -1,0 +1,514 @@
+header {
+	height: 100vh;
+	background: url('img/headerbg.jpg') center/cover no-repeat fixed;
+	position: relative;
+	overflow: hidden;
+}
+#logo, #menu, #red, #slogan {
+	position: absolute;
+} 
+#logo {
+	width: 150px;
+	top: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+#menu {
+	top: 60px;
+	left: 50%;
+	display: grid;
+	text-align: center;
+	transform: translate(-40%, 0);
+	margin: auto;
+}
+#menu > div {
+	margin: 10px 30px;
+}
+#menu a {
+	color: white;
+	font: bold 1em Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#slogan {
+	left: 25%;
+	bottom: 140px;
+}
+#slogan p {
+	font: normal 1em Arial;
+	color: #fff;
+	padding-left: 190px;
+}
+#pr {
+	color: #c15144;
+}
+#slogan h1 {
+	font: normal 2.5em Arial;
+	color: #fff;
+}
+#h1y {
+	color: #99bf29;
+}
+#red {
+	height: 120px;
+	background: rgba(253,99,75,.3);
+	bottom: 0;
+	width: 100%;
+	transform: rotate(-2.5deg)  translate(0, 50px);
+}
+.container {
+	margin: auto;
+}
+#main1 {
+	background: #a2ca28;
+}
+#connect {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+}
+#connect > div {
+	max-width: 280px;
+	padding: 16px 16px;
+	margin-top: 90px;
+	position: relative;
+}
+.arrow {
+	position: absolute;
+	left: 16px;
+	bottom: 0;
+}
+.arrow a {
+	font: bold 1em Arial;
+	color: #fff;
+	text-decoration: none;
+}
+#connect h2 {
+	font: bold 1.5em Arial;
+	color: #fff;
+	padding: 24px 0;
+}
+#connect p {
+	font: bold .8em Arial;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#connect i {
+	color: #fff;
+	text-align: center;
+}
+#users, #used {
+	display: none;
+}
+/*-------------------features-----------------------*/
+#features {
+	margin-top: 120px;
+}     
+.text{
+	background: url('img/girl.jpg') center/cover no-repeat;
+	padding: 60px;
+	text-align: center; 
+}
+.text h3 {
+	font: normal .9em Arial;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #fd634e;
+	font-weight: 400;
+}
+.text h2 {
+	font: normal 2em Arial;
+	line-height: 30px;
+	color: #a2ca28;
+	font-weight: 300;
+	margin: 14px 0;
+}
+.text i {
+	margin: 10px 0;
+}
+.text p {
+	font: normal .9em Arial;
+	line-height: 26px;
+	color: #656e74;
+	font-weight: 400;
+	margin: 16px 0;
+}
+.text a {
+	font: normal .9em Arial;
+	line-height: 26px;
+	color: #a2ca28;
+	font-weight: 400;
+}
+.swatch {
+	background: #fff;
+	padding: 60px;
+	text-align: center;
+}
+
+#users {
+	position: absolute;
+	right: 40px;
+	bottom: 46px;
+}
+#users > div {
+	display: inline;
+	font: normal .75em Arial;
+	letter-spacing: 1px;
+	color: #f7614c;
+	font-weight: 400;
+	margin-left: 5px;
+}
+#users span {
+	color: #fff;
+}
+#users img {
+	margin-bottom: -10px;
+}
+#used {
+	position: absolute;
+	left: 50px;
+	bottom: 55px;
+}
+#used > div {
+	display: inline;
+	font: normal .75em Arial;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 400;
+	margin-right: 5px;
+}
+#used img {
+	margin-bottom: -10px;
+}
+
+/*----------------------main2---------------------------*/
+#main2 {
+	//height: 1200px;
+	background: #fd634e;
+}
+#date, #health {
+	display: none;
+	text-align: center;
+}
+
+.track {
+	background: url('img/skate.jpg') center/cover no-repeat;
+	padding: 50px 36px;
+	position: relative;
+}
+.sw {
+	background: url('img/watch.jpg') center/cover no-repeat;
+}
+.track h3 {
+	font: normal .9em Arial;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #fd634e;
+	font-weight: 400;
+}
+.track h2 {
+	font: normal 2em Arial;
+	line-height: 30px;
+	color: #a2ca28;
+	font-weight: 300;
+	margin: 14px 0;
+}
+.track img {
+	margin: 10px 0;
+	position: absolute;
+	right: 36px;
+	top: 50px;
+	
+}
+.track p {
+	font: normal .9em Arial;
+	line-height: 26px;
+	color: #656e74;
+	font-weight: 400;
+	margin: 16px 0;
+}
+.fun {
+	background: #a1c927;
+	padding: 62px;
+	color: #fff;
+}
+.fun h3 {
+	font: bold 1.1em Tahoma;
+	
+}
+.fun h2 {
+	font: normal 2.25em Tahoma;
+	font-weight: 500;
+}
+.fun p {
+	font: normal .8em "Tahoma";
+	font-weight: 400;
+	margin: 30px auto;
+}
+.improve {
+	padding: 50px 20px;
+	color: #fff;
+	position: relative;
+}
+.improve h3 {
+	font: bold 1.1em Tahoma;
+	
+}
+.improve h2 {
+	font: normal 2.25em Tahoma;
+	font-weight: 500;
+}
+.improve p {
+	font: normal .8em "Tahoma";
+	font-weight: 400;
+	margin: 30px auto;
+}
+.improve img {
+	position: absolute;
+	top: 55px;
+	right: 20px;
+}
+
+/*--------------------FOOT---------------------------*/
+#foot {
+	background: url('img/footerbg.jpg') bottom/cover no-repeat;
+	height: 100vh;
+	padding-top: 240px;
+	text-align: center;
+}
+#foot div {
+	max-width: 680px;
+	margin: auto;
+}
+#foot h2 {
+	font: normal 2.8em Arial;
+	letter-spacing: 0;
+	color: #fff;
+	font-weight: 400;
+}
+#foot h3 {
+	font: normal 1em Arial;
+	letter-spacing: 0px;
+	color: #fff;
+	font-weight: 400;
+	padding: 20px 80px;
+}
+
+/*-----------------FOOTER------------------------*/
+footer {
+	background: #000;
+	height: 800px;
+}
+#info {
+	padding: 50px 0;
+	text-align: center;
+}
+#info h3 {
+	font: normal 1em Tahoma;
+	color: #fff;
+	font-weight: 400;
+	margin: 20px 0;
+}
+#info p {
+	font: normal .8em Tahoma;
+	line-height: 24px;
+	color: #8297a7;
+	font-weight: 400;
+}
+#social {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	align-content: space-around;
+}
+#social > div {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	margin: auto;
+}
+#fb {
+	color: #2e3092;
+	cursor: pointer;
+}
+#tw {
+	color: #21b6ef;
+	cursor: pointer;
+}
+#you {
+	color: #ed3123;
+	cursor: pointer;
+}
+#in {
+	color: #16198f;
+	cursor: pointer;
+}
+#input {
+	display: inline-block;
+}
+#input > div {
+	margin: 5px 70px;
+}
+input {
+	font: normal .8em Arial;
+	color: #83969f;
+	padding: 20px;
+}
+#mail, #name {
+	padding-right: 150px;
+}
+#butt {
+	background: #a1c927;
+}
+button {
+	font: bold .9em Arial;
+	color: #fff;
+	padding: 20px 10px;
+	background: #a1c927;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+button i {
+	margin: 0 5px;
+}
+
+@media only screen and (min-width: 1220px) {
+	#logo {
+		top: 40px;
+		left: 50px;
+		transform: none;
+	}
+	#menu {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		text-align: center;
+		transform: translate(0, 0);
+	}
+	#menu > div {
+		margin: 0 30px;
+	}
+	#slogan {
+		left: 115px;
+		bottom: 140px;
+	}
+	#connect {
+		grid-template-columns: auto auto auto auto;
+	}
+	#connect i {
+		color: #fff;
+	}
+	.container {
+		max-width: 1200px;
+		margin: auto;
+	}
+	#features {
+		display: grid;
+		grid-template-columns: 400px 400px 400px;
+		margin-top: 120px;
+	}
+	.text{
+		background: #fff;
+		padding: 60px;
+		text-align: center; 
+	}
+	.cols {
+		grid-column: span 2;
+		position: relative;
+		
+	}
+	.girl {
+		background: url('img/girl.jpg') center/cover no-repeat;
+	}
+	.watch {
+		background: url('img/watch.jpg') center/cover no-repeat;
+	}
+	.text{
+		max-width: 400px;
+	}
+	#users, #used {
+		display: inline-block;
+	}
+	/*----------------------main2-------------------------*/
+	#galery {
+		display: grid;
+		grid-template-columns: 400px 400px 400px;
+	}
+	.skate {
+		background: url('img/skate.jpg') top/cover no-repeat;
+		position: relative;
+	}
+	#health, #date {
+		position: absolute;
+	}
+	#health {
+		display: inline;
+		top: 60px;
+		right: 60px;
+		font: bold .9em Tahoma;
+		color: #fff;
+	}
+	#health div{
+		float: left;
+		margin-left: 5px;
+	}
+	#date {
+		top: 60px;
+		left: 60px;
+		font: normal .9em Tahoma;
+		color: #fff;
+	}
+	.fun {
+		background: #a1c927;
+		padding: 62px;
+		color: #fff;
+	}
+	.track {
+		background: #fff;
+		padding: 50px 36px;
+		position: relative;
+	}
+	.improve {
+		background: #a1c927;
+	}
+	#runners {
+		background: url('img/runners.jpg') center/cover no-repeat;
+		padding: 160px 200px;
+	}
+	.grape {
+		background: url('img/grape.jpg') top/cover no-repeat;
+	}
+	#mango {
+		background: url('img/mango.jpg') center/cover no-repeat;
+		padding: 160px 200px;
+	}
+	
+	/*-----------------------FOOTER-------------------------------*/
+	#info {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding: 50px 0;
+		text-align: left;
+	}
+	#resources {
+		max-width: 400px;
+	}
+	#social {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		align-content: space-around;
+		text-align: center;
+	}
+	#input {
+		grid-column: span 3;
+		display: inline;
+	}
+	#input div {
+		float: right;
+		margin-left: 10px;
+	}
+	#mail {
+		padding-right: 100px;
+	}
+
+
